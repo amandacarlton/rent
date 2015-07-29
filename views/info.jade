@@ -7,5 +7,17 @@ block content
  p
   Strong Price Low: 
   =info.estimate.estimateLow
+  
  iframe(width='350', height='250', frameborder='5', style='border:0', src='https://www.google.com/maps/embed/v1/place?key=AIzaSyB6VDVvKsJKEFPKWDhcvQkk4HL3pm6b-xg\
     &q='+ info.subjectPropertyUserEntry.address.location.lat+'%2C%20'+ info.subjectPropertyUserEntry.address.location.lng, allowfullscreen='')
+
+ p 
+ Strong Average Age: 
+ =res.MedianAge
+ p
+ Strong Average Household Income: 
+ =res.IncomePerHousehold
+
+ p 
+ Strong Violent Crime:  
+ =res.ViolentCrime
